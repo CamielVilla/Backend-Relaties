@@ -11,12 +11,19 @@ public class App {
 
        Dog hondje = new Dog("hondje", "baas", "male", "golden retriever");
        Cat felix = new Cat("felix", "catboss", "female", "trashcat", "outdoor");
+        Hamster josefine = new Hamster("josefine", "noralie", "female", "russische dwerghamster");
 
-       simba.move();
-       felix.move();
-       mama.eat();
-       hondje.eat();
-       bigbadwolf.sound();
+
+       josefine.move();
+       josefine.getsInRad();
+       josefine.eat();
+
+//
+//       simba.move();
+//       felix.move();
+//       mama.eat();
+//       hondje.eat();
+//       bigbadwolf.sound();
 
     }
 
