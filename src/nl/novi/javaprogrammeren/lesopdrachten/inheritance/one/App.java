@@ -15,7 +15,7 @@ public class App {
 
 
        josefine.move();
-       josefine.getsInRad();
+       josefine.getsInRad(5);
        josefine.eat();
 
 //

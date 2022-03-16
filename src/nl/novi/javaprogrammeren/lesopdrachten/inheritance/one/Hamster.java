@@ -10,9 +10,10 @@ public class Hamster extends PetAnimal{
     }
 
 
-    public void getsInRad() {
+    public void getsInRad(int numberOfTimes) {
         numberOfTurnsInRad =+ 50;
-        System.out.println(name + "turned " + numberOfTurnsInRad + " times.");
+        int totalTurns = numberOfTimes * numberOfTurnsInRad;
+        System.out.println(name + "turned " + totalTurns + " times.");
     }
 
     @Override
