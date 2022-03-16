@@ -1,6 +1,6 @@
 package nl.novi.javaprogrammeren.lesopdrachten.inheritance.one;
 
-public class WildAnimal extends Animal{
+public abstract class  WildAnimal extends Animal{
     String name;
     String shedName;
     int lastFeed;
